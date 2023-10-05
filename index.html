@@ -11,32 +11,41 @@
 </head>
 <body>
   <main>
-    <div class="description">
-      <div class="image">
-        <img src="./images/ilustracao-de-pamonha-desenhada.png" alt="Foto de uma pamonha">
-      </div>
+    <section class="top">
 
-      <div>
-        <div>
+      <picture class="image">
+        <img src="./images/ilustracao-de-pamonha-desenhada.png" alt="Foto de uma pamonha">
+      </picture>
+
+      <div class="info">
+
           <h1>Pamonha</h1>
           <p>Prato típico com milho verde ralado</p>
-        </div>
 
-        <div class="add">
+        <div class="buttons">
           <span>Porções</span>
-          <img src="./images/Vector_menos.svg" alt="">
-          <strong>0</strong>
-          <img src="./images/Vector_plus.svg" alt="">
+
+          <button id="buttons-less">
+            <img src="./images/Vector_menos.svg" alt="Botao de menos">
+          </button>
+
+          <p id="count">01</p>
+
+          <button id="button-plus">
+            <img src="./images/Vector_plus.svg" alt="Botao de mais">
+          </button>
+
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="recipe">
-      <div class="ingredients">
-        <div class="ingredients-title">
-          <img src="./images/Vector_cesta.svg" alt="">
-          <p>Ingredientes</p>
+    <section class="bottom">
+      <div class="col1">
+        <div>
+          <img src="./images/Vector_cesta.svg" alt="Icone de cesta de mercado">
+          <h1>Ingredientes</h1>
         </div>
+
         <ul>
           <li>1 espiga de milho verde</li>
           <li>1 colher de sopa de açúcar</li>
@@ -46,10 +55,10 @@
         </ul>
       </div>
 
-      <div class="preparation">
-        <div class="preparation-title">
-          <img src="./images/Vector_panela.svg" alt="">
-          <p>Modo de preparo</p>
+      <div class="col2">
+        <div>
+          <img src="./images/Vector_panela.svg" alt="Icone de uma panela">
+          <h1>Modo de preparo</h1>
         </div>
         <ol>
           <li>Descasque a espiga de milho e corte os grãos.</li>
@@ -59,7 +68,7 @@
           <li>Deixe esfriar e sirva.</li>
         </ol>
       </div>
-    </div>
+    </section>
   </main>
 </body>
 </html>
